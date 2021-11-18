@@ -76,8 +76,9 @@ input, select, textarea {
 }
 
 /* Basic */
-	.btn {
+	.btn-lg {
 		border: 2px solid black;
+		padding: 0.5rem 2rem;
 	}
 	html {
 		box-sizing: border-box;
@@ -902,6 +903,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		.btn-lg {
+			border: 2px solid black;
+			padding: 0.25rem 1rem;
+		}
 
 			body {
 				min-width: 320px;
@@ -1004,6 +1009,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		.btn-lg {
+			border: 2px solid black;
+			padding: 0.25rem 1rem;
+		}
 		/* BG */
 
 			@-moz-keyframes bg {
